@@ -1,0 +1,65 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 50%, #16213e 100%);
+  padding: 40px 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 20px;
+}
+
+.app-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+  background: linear-gradient(135deg, #02c1d6 0%, #0077ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 10px rgba(0, 4, 243, 0.3);
+}
+
+.app-subtitle {
+  font-size: 18px;
+  color: #a0a0b8;
+  margin: 0;
+  font-weight: 300;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 24px;
+  color: #4c00f0;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 36px;
+  }
+  
+  .teams-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .app-container {
+    padding: 20px 15px;
+  }
+}
