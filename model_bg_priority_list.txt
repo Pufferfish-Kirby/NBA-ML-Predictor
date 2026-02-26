@@ -1,0 +1,20 @@
+This is a document showing the priority of what would be most important in determining my model
+NOTE: A record is Strength(how strong the team is made from the priority list) × Opportunity(stuff remaining, home court, etc)
+
+= Σ (expected win probability per remaining game)
+Expected Win % Remaining ≈ f(team_strength − avg_remaining_opponent_strength + home_game_adjustment)
+and then we can mulitply this by games remaining (this is what we can do)
+
+
+0. Current record: You will calculate games starting from December 11th 2025. Since all teams have not played the same amount of games
+it will be inputted as a win %. Then, a final win percentage will be calculated and we will convert to win loses after that. This 
+will work because will we make sure the win percentage is a possible quotient of x/82, where x is from 0-82 
+
+We assume the team’s expected strength from now on equals its recent observed strength.
+
+1. Team stats/rankings: (ppg, threes made/%, ft made/%, rebounding, to, steals/blocks, fg%)
+2. Opponent stats(ex: points allowed, free throws/three allowed, fg%, rebounding, turnovers caused)
+3. Individual stats(we will use availability to calculate this and then for injuries, have a placeholder stat to account for it)
+4. Home and away record rankings (how well do these teams play on the road/at home)
+5. home court advantage (just note)
+

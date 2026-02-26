@@ -1,0 +1,15 @@
+common_player: literally just players/country/team/height, etc
+game_info: game ids with dates and attendance
+game_summary: this has teams with idss, who is the home team, etc
+game: more data on field goals, 3s, win/lose at home, teams stats
+line_score: point in quarters
+play_by_play: yep you know what that is
+player: yep that too
+team_details: like everything about the team
+team: the tldr/ most important things from it
+
+0.12760156900473288 0.14574603174603173
+0.12555728747512715 alpha 1.0
+0.12129552042057283 alpha 30.0
+0.12678786737121306 alpha 67.0
+0.12922566950747932 alpha 90.0
